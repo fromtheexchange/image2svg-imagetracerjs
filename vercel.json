@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/vercel", "destination": "/api/vercel" },
+    { "source": "/", "destination": "/api/vercel" },
+    { "source": "/:match*", "destination": "/api/vercel" }
+  ],
+  "functions": {
+    "api/vercel.js": {
+      "maxDuration": 60
+    }
+  }
+}
