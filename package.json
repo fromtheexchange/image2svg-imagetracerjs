@@ -39,7 +39,7 @@
     "imagetracerjs": "^1.2.6",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6",
+    "rxjs": "^6.6.7",
     "sharp": "^0.27.2",
     "string.prototype.replaceall": "^1.0.5",
     "svgo": "^2.1.0",
